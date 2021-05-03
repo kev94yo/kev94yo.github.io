@@ -1,0 +1,167 @@
+.container{
+	padding: 40px; 
+}
+
+.portfolio-img-wrapper{
+	padding: 30px 0px; 
+	// border-top: 1px solid rgb(231, 231, 231); 
+	// border-bottom: 1px solid rgb(231, 231, 231); 
+}
+
+.portfolio-img{
+	border-radius: 10px;
+}
+
+.affiliation-wrapper{
+	margin-top: 10px; 
+	margin-bottom: 10px; 
+}
+
+.name{
+	margin-top: 25px;
+}
+
+.spolin-text{
+	font-family: "Abril Fatface";
+}
+
+.content{
+	@media screen and (max-width: $mobileW){
+		margin: 0 10px; 
+	}
+}
+
+.press {
+	margin: 3px 0px;
+}
+
+.content > div {
+
+	@media screen and (max-width: $mobileW){
+		margin-left: 0px; 
+		padding: 0px 20px; 
+	}
+
+	@media screen and (min-width: $mobileW + 1){
+		margin-left: 70px;
+	}
+}
+
+div{
+	text-align: justify;
+}
+
+.intro > div{
+	padding: 10px 0px; 
+}
+
+.social a{
+	color: black; 
+}
+
+.pull-left{
+	float: left !important; 
+}
+
+#research{
+
+	.research-item{
+		padding-bottom: 20px; 
+		padding-top: 10px;
+		border-bottom: solid rgb(223, 223, 223) 1px; 
+	}
+
+	.thumbnail-wrapper{
+		
+		height: 100%; 
+		.thumbnail {
+			@media screen and (max-width: $mobileW){
+				display: block;
+			}
+			@media screen and (min-width: $mobileW + 1){
+				display: table-cell;
+			}
+			width: 150px; 
+			margin-top: 5px; 
+			// margin-bottom: 10px; 
+		}
+
+		margin-right: 10px; 
+	}
+
+
+	.description{
+		display: table-cell;
+		.excerpt{
+			color: rgb(102, 102, 102);
+		}
+
+		.paper-title{
+			font-style: italic;
+			font-size: 1.2em; 
+		}
+		
+	}
+}
+
+
+#blog-list{
+
+	.small-title{
+		margin-bottom: 0px; 
+		padding-bottom: 0; 
+		font-size: 1.2em; 
+		display: flex; 
+	}
+
+	.post-date{
+		color: gray;  
+		font-size: 0.8em;
+		margin-top: 0px; 
+		padding: 0; 
+		text-align: right;
+		flex-grow: 100; 
+	}
+
+	.excerpt{
+		color: rgb(61, 61, 61); 
+		margin-bottom: 20px; 
+	}
+
+
+}
+
+
+.footer{
+	margin-top: 50px; 
+	padding: 20px; 
+	border-top: solid 1px rgb(214, 214, 214); 
+	text-align: center;
+}
+
+.blog-img{
+	padding: 20px; 
+}
+
+.post .blog-caption{
+	text-align: center;
+	max-width: 50%; 
+	margin-right: auto; 
+	margin-left: auto; 
+	font-size: 1em; 
+}
+
+.back-button{
+	margin: 20px; 
+}
+
+
+.nav-bar{
+
+	> ul{
+		list-style: none; 
+	}; 
+
+	border-bottom: solid 1px gray; 
+
+}
