@@ -1,57 +1,42 @@
 ---
-layout: default
+title: Kihong Seong
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{%- include head.html -%}
+</head>
 
-{%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }}</h1>
-{%- endif -%}
-
-{{ content }}
-
-{%- if site.posts.size > 0 -%}
-  <ul class="posts">
-    <li class="posts-labelgroup" id="posts-labelgroup">
-      <h1 id="posts-label">posts</h1>
-      {% if site.plainwhite.search %}
-      <div class="search-container">
-        <div class="search-section">
-          <i class="icon-search"></i>
-          <input type="text" name="search" id="searchbar" autocomplete="off" aria-label="search in posts">
-        </div>
-        <div class="search-results" id="search-results" data-placeholder="No Results" style="display: none;"></div>
-      </div>
-      {% endif %}
-    </li>
-
-    {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <h2 class="post-title">{{ post.title | escape }}</h2>
+<!-- site means config.yml file, so site.plainwhite.name is Kihong Seong -->
+<!-- use date_format in config.yml (probably?) -->
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+<body>
+  <main class="container" id="top">
+    <section class='about'>
+      <div class="portfolio-img-wrapper">
+        <a href="/">
+          <img class="portfolio_image" src="{{ '/assets/portfolio.jpg' | relative_url }}" alt="{{ site.plainwhite.name }}">
         </a>
-        <div class="post-meta">
-          <div class="post-date">
-            <i class="icon-calendar"></i>
-            {{ post.date | date: date_format }}
-          </div>
-          {%- if post.categories.size > 0-%}
-          <ul class="post-categories">
-            {%- for tag in post.categories -%}
-            <li>{{ tag }}</li>
-            {%- endfor -%}
-          </ul>
-          {%- endif -%}
-        </div>
-        <div class="post">
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </div>
-      </li>
-    {%- endfor -%}
-  </ul>
+      </div>
 
-  <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
-		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
-{%- endif -%}
+      <h2> Kihong Seong 성기홍 </h2>
+      
+      <!-- config.yml plainwhite tagline "MSc Student ..." -->
+      <p class="tagline">{{ site.plainwhite.tagline }}</p>
+      <div class="affiliation-wrapper">
+        <!-- affil has name and link variable in config.yml -->
+        {% for affil in site.plainwhite.affiliations %}
+        <div class="affiliation">
+          <a target="_blank" href="{{ affil.link}}">{{ affil.name}}</a>
+        </div>
+        {% endfor %}
+      </div>
+
+      <ul class="social">
+        <a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank"><li><i class="icon-github-circled"></i></li></a>
+				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}" target="_blank"><li><i class="icon-linkedin-squared"></i></li></a>
+				<a href="https://twitter.com/{{site.plainwhite.social_links.twitter}}" target="_blank"><li><i class="icon-twitter-squared"></i></li></a>
+      </ul>
+    </section>
+  </main>
+</body>
