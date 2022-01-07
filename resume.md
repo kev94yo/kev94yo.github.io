@@ -9,15 +9,15 @@ left_column:
   - work
   - volunteer
   - education
-  - awards
   - publications
-  - references
+  - certificates
 right_column:
   - languages
   - skills
+  - awards
   - interests
-no_language_icons: false
-no_skill_icons: false
+no_language_icons: True
+no_skill_icons: True
 buttons:
   print: true
   pdf: /assets/Resume.pdf

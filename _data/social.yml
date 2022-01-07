@@ -1,4 +1,7 @@
 # This file contains meta data for various social media sites
+cv:
+  name: CV
+  icon: icon-file-pdf
 email:
   name: Email
   icon: icon-mail

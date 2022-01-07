@@ -1,28 +1,52 @@
 ---
-layout: page
-title: Thank You!
+layout: welcome
+title: Kihong Seong
 sitemap: false
+selected_projects:
+    - _projects/hydejack-site.md
+    - _projects/qwtel.md
+projects_page: projects.md
+selected_posts:
+    - example/_posts/2012-02-07-example-content.md
+    - example/_posts/2017-11-23-example-content-ii.md
+posts_page: /blog/
 ---
+<!--author-->
 
-Thank you for buying the PRO version of Hydejack! 🎉
+## Skill Set
+As a data scientist, I can do many things
+- Data Preprocessing
+- Data Analysis
+- Data Visualization
+- Model Development
+- Model Training, Testing
+- Research Paper
 
-More than one year ago I was looking for a blogging platform but couldn't find it:
-One that would let me write posts in markdown with my own editor,
-one that didn't look awful buy modern design standards, and one that felt snappy on a mobile phone.
-That and more is now Hydejack. I hope you enjoy it [as much as I do](https://qwtel.com/).
+## Experience
+I worked at Google.
+I worked at SNU GSDS Ambient NLP Lab.
 
-## First Steps
-Start by reading the [Documentation]{:.heading.flip-title}.
-Specifically, the chapters below should be relevant now:
+## Projects
+These are the projects that I've done.
+<!--projects-->
 
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start with basic configuration.
-{:.related-posts.faded}
+<!-- ## Blogs
+Here are some posts I wrote. -->
 
-After you've familiarized yourself with Hydejack, you can delete the following folders and files
-containing example content:
+## Media
+Here are some articles that I was featured in.
 
-~~~
+## Interests
+I'm interested in research or development with actual user or item data in various domains. 
+
+## Resume
+For more information about my experiences, education, publications and skills, you can download my 1 page [resume(pdf)]{:.heading.flip-title}, or check out my [resume(json)]{:.heading.flip-title} on this website.
+
+<!-- * [Config]{:.heading.flip-title} --- Once Jekyll is running you can start with basic configuration.
+{:.related-posts.faded} -->
+
+
+<!-- ~~~
 ├── _featured_categories
 │   └── example.md
 ├── _projects
@@ -39,8 +63,10 @@ containing example content:
 ├── forms-by-example.md
 ├── LICENSE.md
 └── NOTICE.md
-~~~
+~~~  -->
 
+[resume(pdf)]: /cv_kihong.pdf
+[resume(json)]: /resume.md
 [documentation]: docs/README.md
 [install]: docs/install.md
 [upgrade]: docs/upgrade.md

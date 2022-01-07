@@ -2,102 +2,169 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "Kihong Seong"
+  label: "Data Scientist"
+  picture: "/assets/img/kihong_drum_profile.jpg"
+  email: "kev94yo@gmail.com"
+  phone: "(82)10-3438-5377"
+  website: "https://kev94yo.github.io"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    Kihong is based in Seoul, South Korea, and completed a majority of his studies in London, United Kingdom.
+    He has earned degrees from University College London, London School of Economics, and is expected to graduate
+     from Seoul National University with a master's degree in Data Science this February.
+    While his main research interest is in analyzing user log data and applying them to Recommendation Systems, 
+    he has worked in various projects in the field of Computer Vision, Natural Language Processing and Data Visualization.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+    address: "49-8 Nakseongdaeyeok 8-gil"
+    postalCode: "08799"
+    city: "Gwanak-gu"
+    region: "Seoul"
+    countryCode: "South Korea"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+    - network: "Github"
+      username: "kev94yo"
+      url: "https://github.com/kev94yo"
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Kihong Seong"
+      url: "https://www.linkedin.com/in/kihong-seong-50b34a86/"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
-    endDate: ""
+  - company: "Google"
+    position: "Software Engineer Intern"
+    website: "https://www.tensorflow.org/"
+    startDate: "2021-06-21"
+    endDate: "2021-09-10"
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Worked as a software engineer intern in the TensorFlow model optimization team at Google.
+      Experienced full developer workflow; Design Docs, Code Implementation, Code Review, Test, Version Control, Documentation, Presentation.
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "Worked on a research project to analyze relationships between quantization errors and TensorFlow Lite model performance"
+      - "Built an error insertion analysis pipeline for future research with quantization errors"
+      - "Built an Auto Quantization API that automatically removes defective layers during quantization"
+  - company: "SNU GSDS Ambient NLP Lab"
+    position: "Graduate Research Assistant"
+    website: "https://sites.google.com/snu.ac.kr/gsds-nlp/home?authuser=0"
+    startDate: "2020-06-11"
+    endDate: 
+    summary: >
+      As graduate research assistant, participated in projects and research.
+    highlights:
+      - "XLNet4Rec: Session-based recommendation system using XLNet architecture"
+      - "Korean Legal Document Processing: Preprocessed Korean legal document data to feed into NLP architectures"
+      - "Worked as a teaching assistant for a Natural Language Processing course"
 volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+  - organization: "Incheon Pentaport Rock Festival"
+    position: "Volunteer"
+    website: "http://www.pentaport.co.kr/kor/main/main.php"
+    startDate: "2017-06-15"
+    endDate: "2017-08-12"
+    summary: "Volunteer work at office of planning and field management for the 2017 Incheon Pentaport Rock Festival."
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "At the festival site, worked for the information department; used language skills to guide non Koreans"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+  - institution: "Seoul National University"
+    area: "Data Science"
+    studyType: "Master"
+    startDate: "2020-03-01"
+    endDate: ""
+    gpa: "4.06 / 4.3"
     courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+      - "Big Data and Knowledge Management Systems (SQL, Apache Spark)"
+      - "Machine Learning and Deep Learning for Data Science (SKLearn, TensorFlow, PyTorch)"
+      - "Software Platforms for Data Science (Algorithms, Data Structures)"
+      - "Text Anayltics and Big Data (Natural Language Processing)"
+      - "Data Analysis and Visualization (Tableau, JavaScript, D3)"
+      - "Scalable High-Performance Computing (Parallel GPU Programming)"
+      - "Recommendation Systems (Content-based RecSys, Collaborative Filtering, Matrix Factorization, Deep Learning-based RecSys)"
+      - "Machine Learning for Visual Understanding (Computer Vision)"
+      - "Applications of Natural Language Processing (Methodologies based on Transformers)"
+  - institution: "London School of Economics"
+    area: "Management and Strategy"
+    studyType: "Master"
+    startDate: "2018-09-22"
+    endDate: "2019-09-21"
+    gpa: "Merit"
+  - institution: "University College London"
+    area: "Statistics and Management for Business"
+    studyType: "Bachelor"
+    startDate: "2013-09-24"
+    endDate: "2018-07-15"
+    gpa: "First Class Honours"
 awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
+  - title: "AlgoExpert Certificate of Completion"
+    date: "2021-11-22"
+    awarder: "AlgoExpert"
+    summary: "Successfully solved 100 questions on AlgoExpert."
+  - title: "Microsoft Office Specialist Expert"
+    date: "2019-10-21"
+    awarder: "Microsoft"
+    summary: "Successfully completed requirements to be recognized as Microsoft Office Specialist Expert for Word, Excel, Powerpoint and Access"
 publications:
   - name: "Video compression for 3d media"
     publisher: "Hooli"
-    releaseDate: "2014-10-01"
+    releaseDate: "2014-10-21"
     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
-  - name: "Web Development"
+  - name: "Data Science"
     level: "Master"
+    keywords:
+      - "Python"
+      - "PySpark"
+      - "Pandas"
+      - "Jupyter Notebook"
+      - "Google Colaboratory"
+  - name: "Machine Learning"
+    level: "Master"
+    keywords:
+      - "TensorFlow"
+      - "PyTorch"
+  - name: "Web Development"
+    level: "Intermediate"
     keywords:
       - "HTML"
       - "CSS"
       - "Javascript"
-  - name: "Compression"
-    level: "Master"
+      - "D3"
+  - name: "Data Visualization"
+    level: "Intermediate"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "Matplotlib"
+      - "Seaborn"
+  - name: "Version Control"
+    level: "Intermediate"
+    keywords:
+      - "Git"
+      - "Mercurial"
+  - name: "Parallel Computing"
+    level: "Beginner"
+    keywords:
+      - "C"
+      - "Cuda"
+      - "OpenMP"
+  - name: "Data Querying"
+    level: "Beginner"
+    keywords:
+      - "SQL"
+      - "Apache Spark"
 languages:
   - language: "English"
+    fluency: "Full professional proficiency"
+  - language: "Korean"
     fluency: "Native speaker"
 interests:
-  - name: "Wildlife"
+  - name: "Data Science"
     keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      - "Computer Vision"
+      - "Natural Language Processing"
+      - "Machine Learning"
+      - "Big Data Preprocessing"
+  - name: "Recommendation Systems"
+    keywords:
+      - "Session-based recommendation"
+      - "User log data"
+      - "Music recommendation"
+  - name: "Music"
+    keywords:
+      - "Live gigs"
+      - "Drums"
+      - "Metal"
