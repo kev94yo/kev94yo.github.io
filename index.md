@@ -76,21 +76,8 @@ For more information about my experiences, education, publications and skills, y
 
 
 <!-- ~~~
-├── _featured_categories
-│   └── example.md
-├── _projects
-│   └── *
 ├── docs
-├── example
-├── licenses
-├── assets
-│   └── img
-│       ├── blog
-│       ├── docs
-│       └── projects
-├── CHANGELOG.md
 ├── forms-by-example.md
-├── LICENSE.md
 └── NOTICE.md
 ~~~  -->
 
