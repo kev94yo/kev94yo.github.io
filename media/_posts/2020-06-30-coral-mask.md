@@ -4,7 +4,7 @@ title: Coral Mask Detection on Maeil Business Newspaper
 description: >
   Real-time Mask Detection on Google Edge TPU, a computer vision related project that I participated in, was featured on Maeil Business Newspaper.
 image: /assets/img/blog/coral-mask-news.jpg
-sitemap: false
+sitemap: true
 hide_last_modified: true
 ---
 

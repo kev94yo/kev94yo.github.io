@@ -14,5 +14,5 @@ image:
 links:
   - title: Link
     url: https://arxiv.org/abs/2010.04427
-sitemap: false
+sitemap: true
 ---

@@ -5,7 +5,7 @@ description: >
   Music-circles, a data visualization project that I participated in, was featured
   in an article at TechExlore.
 image: /assets/img/blog/music-circles-news.jpg
-sitemap: false
+sitemap: true # set this to true to appear in search
 hide_last_modified: true
 ---
 
