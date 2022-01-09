@@ -51,6 +51,15 @@ work:
       - "XLNet4Rec: Session-based recommendation system using XLNet architecture"
       - "Korean Legal Document Processing: Preprocessed Korean legal document data to feed into NLP architectures"
       - "Worked as a teaching assistant for a Natural Language Processing course"
+  - company: "Korea Marketing & Retailing Consulting"
+    position: "Research Engineer"
+    website: "http://ikmrc.org/"
+    startDate: "2019-10-20"
+    endDate: "2019-12-10"
+    summary: >
+      Utilized R and Excel for data analysis and querying.
+    highlights:
+      - "Worked on data collection, analysis and report filing for the Korean Paralympics Committee (KPC) reorganization project"
 volunteer:
   - organization: "Incheon Pentaport Rock Festival"
     position: "Volunteer"
@@ -99,11 +108,18 @@ awards:
     awarder: "Microsoft"
     summary: "Successfully completed requirements to be recognized as Microsoft Office Specialist Expert for Word, Excel, Powerpoint and Access"
 publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-21"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  - name: "Music-Circles: Can Music Be Represented With Numbers?"
+    publisher: "S. Kim, K. Park, K. Seong, N. Cho, J. Min, and H. Hong"
+    releaseDate: "2021-02-26"
+    website: "https://arxiv.org/abs/2102.13350"
+    summary: "Interactive visualization of music from the Billboard. Music-Circles links audio feature
+    data offered by Spotify to popular songs to create unique vectors for each song, and calculate similarities between these vectores to cluster them."
+  - name: "Real-time Mask Detection on Google Edge TPU"
+    publisher: "K. Park, W. Jang, W. Lee, K. Nam, K. Seong, K. Chai, and W. Li"
+    releaseDate: "2020-10-09"
+    website: "https://arxiv.org/abs/2010.04427"
+    summary: "Light-weighted mask detection model that can be deployed on Coral Dev Board, a commercially available development board with Google Edge TPU.
+    Our approach combines MobileNetV2 plus SSD and the quantization scheme for integer-only hardware."
 skills:
   - name: "Data Science"
     level: "Master"

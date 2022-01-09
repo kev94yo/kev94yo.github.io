@@ -68,6 +68,8 @@ menu:
     url:               /projects/
   # - title: Other Projects
   #   url: /other-collection/
+
+  # To make a link to blog page, url should point to 
   - title:             Blog
     url:               /blog/
   # To make link to a simple page/about/welcome, url should point to page without ".md"
