@@ -69,6 +69,13 @@ Here are a few important obstacles I faced during this project.
   - There were lots of freely available pictures on the internet, but most of them were without masks.
   - **Solution**: Performed data augmentation on face images to create faces with masks. Also collected masked face data through crowdsourcing.
 
+## Languages & Tools
+Here are the languages and tools used for this project.
+- Python, Tensorflow
+- Jupyter Notebook
+- Microsoft Powerpoint
+- Git
+
 ## Links
 *  **Github**: <a href="https://github.com/kev94yo/coral_mask" target="_blank">https://github.com/kev94yo/coral_mask</a>
 *  **Media**: <a href="https://n.news.naver.com/article/009/0004605829" target="_blank">https://n.news.naver.com/article/009/0004605829</a>

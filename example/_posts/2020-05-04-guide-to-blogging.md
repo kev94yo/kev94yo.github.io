@@ -28,9 +28,6 @@ invert_sidebar: true
 This post contains Hydejack-specific markdown and HTML content.
 {:.lead}
 
-This makes a text bigger.
-{:.lead}
-
 Links can be doen the html way, like <a href="#">dis parturient montes</a>. "#" sends to the top of the page
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
