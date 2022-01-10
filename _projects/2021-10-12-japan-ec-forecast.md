@@ -82,3 +82,4 @@ Here are the languages and tools used for this project.
 
 ## Links
 *  **Github**: <a href="https://github.com/kev94yo/japan-electricity-forecasting" target="_blank">https://github.com/kev94yo/japan-electricity-forecasting</a>
+*  **Slides**: <a href="https://docs.google.com/presentation/d/1fCRtAoJKXoLXrs9vK84Dp94kusPvB40U/edit?usp=sharing&ouid=100543530057756188294&rtpof=true&sd=true" target="_blank">https://docs.google.com/presentation/d/1fCRtAoJKXoLXrs9vK84Dp94kusPvB40U/edit?usp=sharing&ouid=100543530057756188294&rtpof=true&sd=true</a>
