@@ -15,6 +15,7 @@ My group project, which implemented a lightweight object detection model to be d
 Maeil Business newspaper. The team had a great interview session to demonstrate our project, and the article was released today as a paper copy and web article.
 
 ## Links
-*  **Article**: [https://n.news.naver.com/article/009/0004605829](https://n.news.naver.com/article/009/0004605829)  
-*  **Project**: [Real-time Mask Detection on Google Edge TPU](../../../projects/2020-05-31-coral-mask)
-*  **Paper**: [https://arxiv.org/abs/2010.04427](https://arxiv.org/abs/2010.04427)
+*  **Github**: <a href=https://github.com/kev94yo/coral_mask target="_blank">https://github.com/kev94yo/coral_mask</a>
+*  **Media**: <a href="https://n.news.naver.com/article/009/0004605829" target="_blank">https://n.news.naver.com/article/009/0004605829</a>
+*  **Talk**: <a href="https://www.youtube.com/watch?v=MdS2j5mPYmk&ab_channel=WooLEE" target="_blank">https://www.youtube.com/watch?v=MdS2j5mPYmk&ab_channel=WooLEE</a>
+*  **Paper**: <a href="https://arxiv.org/abs/2010.04427" target="_blank">https://arxiv.org/abs/2010.04427</a>
