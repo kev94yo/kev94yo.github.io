@@ -69,7 +69,7 @@ Here are a few important obstacles I faced during this project.
   - **Solution**: Took and fully completed online courses on [CodeIt](https://www.codeit.kr/event){:.heading.flip-title} and Coursera that covered HTML, CSS, JavaScript and D3.
   Extensively utilized stackoverflow as well :)
 - **No experience on a project focused on Data Visualization**
-  - Data Visualization in its true form had many non-programming aspects to it, like directing people's attention, 
+  - Data Visualization in its true form had many non-programming aspects to it, like psychological elements on attention and visual aesthetics.
   - **Solution**: Reached out to the professor ([Hwajung Hong](http://communication.metapresso.net/snu__professor/%ED%99%8D%ED%99%94%EC%A0%95/){:.heading.flip-title}) who was an expert in journalism for great advice.
 
 ## Languages & Tools
